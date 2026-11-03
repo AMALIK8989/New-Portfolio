@@ -1,31 +1,84 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Page not found | Atta e rabi Malik</title>
   <meta name="robots" content="noindex">
+  <meta name="description" content="Page not found.">
   <meta name="theme-color" content="#0b0c0e">
+  <link rel="canonical" href="https://myportfolio12347.netlify.app/404.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Page not found | Atta e rabi Malik">
+  <meta property="og:description" content="Page not found.">
+  <meta property="og:url" content="https://myportfolio12347.netlify.app/404.html">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.19.0/dist/tabler-icons.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/devicon@2.16.0/devicon.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11.1.14/swiper-bundle.min.css">
   <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
-  <main id="main" class="not-found container">
-    <p class="section-label">Error 404</p>
-    <h1 class="display page-title">This page doesn't exist.</h1>
-    <p class="lead">The link may be broken or the page may have moved. Try one of these instead.</p>
-    <div class="hero-actions">
-      <a class="btn btn-accent btn-lg" href="index.html">Back to home <i class="ti ti-arrow-right" aria-hidden="true"></i></a>
-      <a class="btn btn-ghost btn-lg" href="case-studies.html">View case studies</a>
-      <a class="btn btn-ghost btn-lg" href="contact.html">Contact me</a>
-    </div>
+  <a class="visually-hidden-focusable skip-link" href="#main">Skip to content</a>
+
+  <header id="site-header" class="fixed-top">
+    <nav class="navbar navbar-expand-lg container" aria-label="Primary">
+      <a id="brand" class="navbar-brand d-flex align-items-center gap-2" href="index.html" aria-label="Atta e rabi Malik, home">
+        <span id="brand-mark">AM</span><span id="brand-name">Atta<span id="brand-dot">.</span></span>
+      </a>
+      <button id="nav-toggle" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#siteNav" aria-controls="siteNav" aria-expanded="false" aria-label="Toggle navigation">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
+      <div class="collapse navbar-collapse" id="siteNav">
+        <ul id="site-nav" class="navbar-nav ms-auto align-items-lg-center gap-lg-4 py-3 py-lg-0">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="case-studies.html">Case studies</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#stack">Stack</a></li>
+          <li class="nav-item mt-2 mt-lg-0"><a id="nav-cta" class="btn btn-primary btn-sm" href="contact.html">Start a project <i class="ti ti-arrow-up-right" aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="container py-5 min-vh-100 d-flex flex-column justify-content-center">
+      <p class="text-primary small fw-semibold text-uppercase mb-2">Error 404</p>
+      <h1 class="display-4 fw-bold mb-3">This page doesn't exist.</h1>
+      <p class="lead text-secondary mb-4">The link may be broken or the page may have moved. Try one of these instead.</p>
+      <div class="d-flex flex-wrap gap-3">
+        <a class="btn btn-primary btn-lg" href="index.html">Back to home <i class="ti ti-arrow-right"></i></a>
+        <a class="btn btn-outline-light btn-lg" href="case-studies.html">View case studies</a>
+        <a class="btn btn-outline-light btn-lg" href="contact.html">Contact me</a>
+      </div>
+    </section>
   </main>
+
+  <footer id="site-footer" class="container">
+    <p id="footer-name" class="display-name" aria-hidden="true">Atta e rabi Malik</p>
+    <div id="footer-row" class="d-flex flex-wrap justify-content-between align-items-center gap-3">
+      <p class="muted mb-0">&copy; <span class="js-year"></span> Atta e rabi Malik. Built by hand in Lahore.</p>
+      <nav aria-label="Footer">
+        <ul id="footer-links" class="nav gap-4">
+          <li class="nav-item"><a class="nav-link p-0" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link p-0" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link p-0" href="case-studies.html">Case studies</a></li>
+          <li class="nav-item"><a class="nav-link p-0" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <a id="back-top" class="link-light text-decoration-none" href="#top">Back to top <i class="ti ti-arrow-up" aria-hidden="true"></i></a>
+    </div>
+  </footer>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11.1.14/swiper-bundle.min.js"></script>
   <script src="assets/js/main.js"></script>
 </body>
 </html>
