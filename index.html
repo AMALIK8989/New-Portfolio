@@ -3,14 +3,20 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Atta e rabi Malik | Web Developer, Lahore</title>
-  <meta name="description" content="Atta e rabi Malik builds fast, clean websites in WordPress, HTML, CSS, Bootstrap, JavaScript, React, Python and Node.js. Web developer based in Lahore, Pakistan.">
+  <title>WordPress Developer in Lahore | Atta e rabi Malik</title>
+  <meta name="description" content="WordPress websites, SEO, content writing and social media marketing from Lahore, Pakistan. Starter sites from $170, with prices shown in PKR, USD, GBP, EUR and Gulf currencies.">
   <meta name="theme-color" content="#0b0c0e">
-  <link rel="canonical" href="https://myportfolio12347.netlify.app/">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="canonical" href="https://atta-dev.netlify.app/">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Atta e rabi Malik | Web Developer, Lahore">
-  <meta property="og:description" content="Atta e rabi Malik builds fast, clean websites in WordPress, HTML, CSS, Bootstrap, JavaScript, React, Python and Node.js. Web developer based in Lahore, Pakistan.">
-  <meta property="og:url" content="https://myportfolio12347.netlify.app/">
+  <meta property="og:title" content="WordPress Developer in Lahore | Atta e rabi Malik">
+  <meta property="og:site_name" content="Atta e rabi Malik">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:description" content="WordPress websites, SEO, content writing and social media marketing from Lahore, Pakistan, priced in your currency.">
+  <meta property="og:url" content="https://atta-dev.netlify.app/">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="WordPress Developer in Lahore | Atta e rabi Malik">
+  <meta name="twitter:description" content="Websites, SEO, content and social media marketing, priced in your currency.">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,32 +30,50 @@
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Atta e rabi Malik",
-  "jobTitle": "Web Developer",
-  "url": "https://myportfolio12347.netlify.app/",
-  "email": "mailto:amalik8989@gmail.com",
-  "sameAs": [
-    "https://github.com/AMALIK8989"
-  ],
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Lahore",
-    "addressCountry": "PK"
-  },
-  "knowsAbout": [
-    "WordPress",
-    "JavaScript",
-    "React",
-    "Node.js",
-    "Python",
-    "Bootstrap",
-    "Shopify"
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://atta-dev.netlify.app/#website",
+      "url": "https://atta-dev.netlify.app/",
+      "name": "Atta e rabi Malik",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://atta-dev.netlify.app/#person",
+      "name": "Atta e rabi Malik",
+      "jobTitle": "Web Developer",
+      "description": "WordPress developer in Lahore, Pakistan, building websites, SEO and content for small businesses and agencies.",
+      "url": "https://atta-dev.netlify.app/",
+      "email": "amalik8989@gmail.com",
+      "sameAs": ["https://github.com/AMALIK8989"],
+      "address": { "@type": "PostalAddress", "addressLocality": "Lahore", "addressCountry": "PK" },
+      "knowsAbout": ["WordPress", "WooCommerce", "Search engine optimisation", "Content writing", "Social media marketing", "JavaScript", "React", "Node.js", "Python", "Bootstrap", "Shopify", "Supabase"]
+    },
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://atta-dev.netlify.app/#service",
+      "name": "Atta e rabi Malik, web development, SEO and content",
+      "url": "https://atta-dev.netlify.app/",
+      "provider": { "@id": "https://atta-dev.netlify.app/#person" },
+      "areaServed": "Worldwide",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Services and bundles",
+        "itemListElement": [
+          { "@type": "Offer", "name": "Starter website", "price": "170", "priceCurrency": "USD" },
+          { "@type": "Offer", "name": "Speed and SEO audit", "price": "150", "priceCurrency": "USD" },
+          { "@type": "Offer", "name": "Launch bundle", "price": "550", "priceCurrency": "USD" },
+          { "@type": "Offer", "name": "Growth bundle", "price": "450", "priceCurrency": "USD", "description": "Plus 650 USD per month for SEO, content and social media." },
+          { "@type": "Offer", "name": "Scale bundle", "price": "750", "priceCurrency": "USD", "description": "Plus 1,100 USD per month for a full store with SEO, content and social media." }
+        ]
+      }
+    }
   ]
 }
   </script>
 </head>
-<body>
+<body id="top">
   <a class="visually-hidden-focusable skip-link" href="#main">Skip to content</a>
 
   <header id="site-header" class="fixed-top">
@@ -65,8 +89,10 @@
           <li class="nav-item"><a class="nav-link active" href="index.html" aria-current="page">Home</a></li>
           <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
           <li class="nav-item"><a class="nav-link" href="case-studies.html">Case studies</a></li>
-          <li class="nav-item"><a class="nav-link" href="index.html#services">Services</a></li>
-          <li class="nav-item"><a class="nav-link" href="index.html#stack">Stack</a></li>
+          <li class="nav-item"><a class="nav-link" href="pricing.html">Pricing</a></li>
+          <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="stack.html">Stack</a></li>
+          <li class="nav-item"><select id="currency-select" class="form-select form-select-sm" aria-label="Choose your currency"></select></li>
           <li class="nav-item mt-2 mt-lg-0"><a id="nav-cta" class="btn btn-primary btn-sm" href="contact.html">Start a project <i class="ti ti-arrow-up-right" aria-hidden="true"></i></a></li>
         </ul>
       </div>
@@ -110,9 +136,9 @@
       <div class="container">
         <ul id="proof-list" class="row row-cols-2 row-cols-lg-4 g-4 list-unstyled mb-0">
           <li class="col" data-aos="fade-up"><strong>2016</strong><span>Building for the web since</span></li>
-          <li class="col" data-aos="fade-up" data-aos-delay="80"><strong>6</strong><span>Clients who came back for more</span></li>
-          <li class="col" data-aos="fade-up" data-aos-delay="160"><strong>3</strong><span>Ecosystems: WordPress, JavaScript, Node.js</span></li>
-          <li class="col" data-aos="fade-up" data-aos-delay="240"><strong>1</strong><span>Developer who handles design to deploy</span></li>
+          <li class="col" data-aos="fade-up" data-aos-delay="80"><strong data-count="6">6</strong><span>Clients who came back for more</span></li>
+          <li class="col" data-aos="fade-up" data-aos-delay="160"><strong data-count="3">3</strong><span>Ecosystems: WordPress, JavaScript, Node.js</span></li>
+          <li class="col" data-aos="fade-up" data-aos-delay="240"><strong data-count="1">1</strong><span>Developer who handles design to deploy</span></li>
         </ul>
       </div>
     </section>
@@ -124,60 +150,73 @@
       </div>
       <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
         <div class="col" data-aos="fade-up" data-aos-delay="0">
-          <article class="card service-card h-100">
+          <article class="card service-card tilt h-100">
             <div class="card-body">
               <i class="ti ti-brand-wordpress service-icon" aria-hidden="true"></i>
               <h3 class="h5">WordPress builds</h3>
               <p class="mb-0">Custom themes, block layouts and plugin fixes, built to be easy for your team to edit.</p>
+              <p class="price-from">From <span class="price" data-usd="170"></span></p>
+              <a class="btn btn-primary btn-sm buy-btn mt-3" href="https://wa.me/923342267926" target="_blank" rel="noopener" data-wa-name="WordPress builds" data-wa-usd="170" data-wa-unit="" data-wa-from="1" aria-label="Buy WordPress builds on WhatsApp">Buy now <i class="ti ti-brand-whatsapp" aria-hidden="true"></i></a>
             </div>
           </article>
         </div>
         <div class="col" data-aos="fade-up" data-aos-delay="80">
-          <article class="card service-card h-100">
+          <article class="card service-card tilt h-100">
             <div class="card-body">
               <i class="ti ti-code service-icon" aria-hidden="true"></i>
               <h3 class="h5">Front-end development</h3>
               <p class="mb-0">Responsive pages in HTML5, CSS3, Bootstrap 5 and vanilla JavaScript, plus React for app-style interfaces.</p>
+              <p class="price-from">From <span class="price" data-usd="600"></span></p>
+              <a class="btn btn-primary btn-sm buy-btn mt-3" href="https://wa.me/923342267926" target="_blank" rel="noopener" data-wa-name="Front-end development" data-wa-usd="600" data-wa-unit="" data-wa-from="1" aria-label="Buy Front-end development on WhatsApp">Buy now <i class="ti ti-brand-whatsapp" aria-hidden="true"></i></a>
             </div>
           </article>
         </div>
         <div class="col" data-aos="fade-up" data-aos-delay="160">
-          <article class="card service-card h-100">
+          <article class="card service-card tilt h-100">
             <div class="card-body">
               <i class="ti ti-server-2 service-icon" aria-hidden="true"></i>
               <h3 class="h5">Node.js &amp; Express</h3>
               <p class="mb-0">REST APIs, admin panels and backend pipelines, with Python for scripts, data work and automation.</p>
+              <p class="price-from">From <span class="price" data-usd="800"></span></p>
+              <a class="btn btn-primary btn-sm buy-btn mt-3" href="https://wa.me/923342267926" target="_blank" rel="noopener" data-wa-name="Node.js &amp; Express" data-wa-usd="800" data-wa-unit="" data-wa-from="1" aria-label="Buy Node.js &amp; Express on WhatsApp">Buy now <i class="ti ti-brand-whatsapp" aria-hidden="true"></i></a>
             </div>
           </article>
         </div>
         <div class="col" data-aos="fade-up" data-aos-delay="0">
-          <article class="card service-card h-100">
+          <article class="card service-card tilt h-100">
             <div class="card-body">
               <i class="ti ti-layout-dashboard service-icon" aria-hidden="true"></i>
               <h3 class="h5">Landing pages &amp; redesigns</h3>
               <p class="mb-0">A sharper layout, clearer messages and a path to the action you want visitors to take.</p>
+              <p class="price-from">From <span class="price" data-usd="120"></span></p>
+              <a class="btn btn-primary btn-sm buy-btn mt-3" href="https://wa.me/923342267926" target="_blank" rel="noopener" data-wa-name="Landing pages &amp; redesigns" data-wa-usd="120" data-wa-unit="" data-wa-from="1" aria-label="Buy Landing pages &amp; redesigns on WhatsApp">Buy now <i class="ti ti-brand-whatsapp" aria-hidden="true"></i></a>
             </div>
           </article>
         </div>
         <div class="col" data-aos="fade-up" data-aos-delay="80">
-          <article class="card service-card h-100">
+          <article class="card service-card tilt h-100">
             <div class="card-body">
               <i class="ti ti-database service-icon" aria-hidden="true"></i>
               <h3 class="h5">Data &amp; media integrations</h3>
               <p class="mb-0">Supabase for data and auth, Cloudinary for images, wired into the site you already have.</p>
+              <p class="price-from">From <span class="price" data-usd="200"></span></p>
+              <a class="btn btn-primary btn-sm buy-btn mt-3" href="https://wa.me/923342267926" target="_blank" rel="noopener" data-wa-name="Data &amp; media integrations" data-wa-usd="200" data-wa-unit="" data-wa-from="1" aria-label="Buy Data &amp; media integrations on WhatsApp">Buy now <i class="ti ti-brand-whatsapp" aria-hidden="true"></i></a>
             </div>
           </article>
         </div>
         <div class="col" data-aos="fade-up" data-aos-delay="160">
-          <article class="card service-card h-100">
+          <article class="card service-card tilt h-100">
             <div class="card-body">
               <i class="ti ti-gauge service-icon" aria-hidden="true"></i>
               <h3 class="h5">Speed &amp; SEO fixes</h3>
               <p class="mb-0">Audit, then fix the things slowing a site down or keeping it off search results.</p>
+              <p class="price-from">Audit <span class="price" data-usd="150"></span></p>
+              <a class="btn btn-primary btn-sm buy-btn mt-3" href="https://wa.me/923342267926" target="_blank" rel="noopener" data-wa-name="Speed &amp; SEO fixes" data-wa-usd="150" data-wa-unit="" data-wa-from="0" aria-label="Buy Speed &amp; SEO fixes on WhatsApp">Buy now <i class="ti ti-brand-whatsapp" aria-hidden="true"></i></a>
             </div>
           </article>
         </div>
       </div>
+      <p class="text-center mt-5 mb-0" data-aos="fade-up"><a class="link-accent" href="pricing.html">See every price, in your currency <i class="ti ti-arrow-right" aria-hidden="true"></i></a></p>
     </section>
 
     <section id="work" aria-labelledby="work-title">
@@ -198,7 +237,7 @@
       <div id="work-swiper" class="swiper" data-aos="fade-up">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
-            <article class="card project h-100" style="--hue:#ff6b2c">
+            <article class="card project tilt h-100" style="--hue:#ff6b2c">
               <div class="mock" aria-hidden="true">
                 <div class="mock-bar"><span></span><span></span><span></span></div>
                 <div class="mock-body"><span class="mock-title"></span><span class="mock-line"></span><span class="mock-line short"></span><span class="mock-block"></span></div>
@@ -216,7 +255,7 @@
             </article>
           </div>
           <div class="swiper-slide">
-            <article class="card project h-100" style="--hue:#7cc4ff">
+            <article class="card project tilt h-100" style="--hue:#7cc4ff">
               <div class="mock" aria-hidden="true">
                 <div class="mock-bar"><span></span><span></span><span></span></div>
                 <div class="mock-body"><span class="mock-title"></span><span class="mock-grid"><span></span><span></span><span></span></span></div>
@@ -228,13 +267,12 @@
                 <div class="d-flex flex-wrap gap-2 mt-auto"><span class="badge rounded-pill text-bg-dark border fw-normal px-3 py-2">Shopify</span><span class="badge rounded-pill text-bg-dark border fw-normal px-3 py-2">Liquid</span><span class="badge rounded-pill text-bg-dark border fw-normal px-3 py-2">HTML5</span></div>
               </div>
               <div class="card-footer project-actions">
-                <a class="project-link" href="https://example.com/young-connection" target="_blank" rel="noopener">Visit website <i class="ti ti-external-link" aria-hidden="true"></i></a>
                 <a class="project-link project-link-alt" href="case-studies/young-connection.html">Read case study <i class="ti ti-arrow-right" aria-hidden="true"></i></a>
               </div>
             </article>
           </div>
           <div class="swiper-slide">
-            <article class="card project h-100" style="--hue:#b8f06b">
+            <article class="card project tilt h-100" style="--hue:#b8f06b">
               <div class="mock" aria-hidden="true">
                 <div class="mock-bar"><span></span><span></span><span></span></div>
                 <div class="mock-body"><span class="mock-title"></span><span class="mock-line"></span><span class="mock-line short"></span></div>
@@ -246,13 +284,12 @@
                 <div class="d-flex flex-wrap gap-2 mt-auto"><span class="badge rounded-pill text-bg-dark border fw-normal px-3 py-2">HTML5</span><span class="badge rounded-pill text-bg-dark border fw-normal px-3 py-2">CSS3</span><span class="badge rounded-pill text-bg-dark border fw-normal px-3 py-2">Bootstrap 5.3</span></div>
               </div>
               <div class="card-footer project-actions">
-                <a class="project-link" href="https://example.com/syntrix" target="_blank" rel="noopener">Visit website <i class="ti ti-external-link" aria-hidden="true"></i></a>
                 <a class="project-link project-link-alt" href="case-studies/syntrix.html">Read case study <i class="ti ti-arrow-right" aria-hidden="true"></i></a>
               </div>
             </article>
           </div>
           <div class="swiper-slide">
-            <article class="card project h-100" style="--hue:#f5c46b">
+            <article class="card project tilt h-100" style="--hue:#f5c46b">
               <div class="mock" aria-hidden="true">
                 <div class="mock-bar"><span></span><span></span><span></span></div>
                 <div class="mock-body"><span class="mock-grid"><span></span><span></span><span></span><span></span></span></div>
@@ -264,13 +301,12 @@
                 <div class="d-flex flex-wrap gap-2 mt-auto"><span class="badge rounded-pill text-bg-dark border fw-normal px-3 py-2">Node.js</span><span class="badge rounded-pill text-bg-dark border fw-normal px-3 py-2">Express</span><span class="badge rounded-pill text-bg-dark border fw-normal px-3 py-2">Supabase</span></div>
               </div>
               <div class="card-footer project-actions">
-                <a class="project-link" href="https://example.com/nova-cms" target="_blank" rel="noopener">Visit website <i class="ti ti-external-link" aria-hidden="true"></i></a>
                 <a class="project-link project-link-alt" href="case-studies/nova-cms.html">Read case study <i class="ti ti-arrow-right" aria-hidden="true"></i></a>
               </div>
             </article>
           </div>
           <div class="swiper-slide">
-            <article class="card project h-100" style="--hue:#ff8fb1">
+            <article class="card project tilt h-100" style="--hue:#ff8fb1">
               <div class="mock" aria-hidden="true">
                 <div class="mock-bar"><span></span><span></span><span></span></div>
                 <div class="mock-body"><span class="mock-title"></span><span class="mock-line"></span><span class="mock-block"></span></div>
@@ -282,13 +318,12 @@
                 <div class="d-flex flex-wrap gap-2 mt-auto"><span class="badge rounded-pill text-bg-dark border fw-normal px-3 py-2">Node.js</span><span class="badge rounded-pill text-bg-dark border fw-normal px-3 py-2">Supabase</span><span class="badge rounded-pill text-bg-dark border fw-normal px-3 py-2">HTML5</span></div>
               </div>
               <div class="card-footer project-actions">
-                <a class="project-link" href="https://example.com/evms" target="_blank" rel="noopener">Visit website <i class="ti ti-external-link" aria-hidden="true"></i></a>
                 <a class="project-link project-link-alt" href="case-studies/evms.html">Read case study <i class="ti ti-arrow-right" aria-hidden="true"></i></a>
               </div>
             </article>
           </div>
           <div class="swiper-slide">
-            <article class="card project h-100" style="--hue:#c3a6ff">
+            <article class="card project tilt h-100" style="--hue:#c3a6ff">
               <div class="mock" aria-hidden="true">
                 <div class="mock-bar"><span></span><span></span><span></span></div>
                 <div class="mock-body"><span class="mock-title"></span><span class="mock-grid"><span></span><span></span><span></span></span></div>
@@ -300,8 +335,26 @@
                 <div class="d-flex flex-wrap gap-2 mt-auto"><span class="badge rounded-pill text-bg-dark border fw-normal px-3 py-2">HTML5</span><span class="badge rounded-pill text-bg-dark border fw-normal px-3 py-2">CSS3</span><span class="badge rounded-pill text-bg-dark border fw-normal px-3 py-2">Bootstrap 5.3</span></div>
               </div>
               <div class="card-footer project-actions">
-                <a class="project-link" href="https://example.com/cinelux" target="_blank" rel="noopener">Visit website <i class="ti ti-external-link" aria-hidden="true"></i></a>
+                <a class="project-link" href="https://cineluxx.netlify.app" target="_blank" rel="noopener">Visit website <i class="ti ti-external-link" aria-hidden="true"></i></a>
                 <a class="project-link project-link-alt" href="case-studies/cinelux.html">Read case study <i class="ti ti-arrow-right" aria-hidden="true"></i></a>
+              </div>
+            </article>
+          </div>
+          <div class="swiper-slide">
+            <article class="card project tilt h-100" style="--hue:#5fd3a0">
+              <div class="mock" aria-hidden="true">
+                <div class="mock-bar"><span></span><span></span><span></span></div>
+                <div class="mock-body"><span class="mock-title"></span><span class="mock-grid"><span></span><span></span><span></span></span></div>
+              </div>
+              <div class="card-body project-meta">
+                <p class="project-kind">Web app · Base44</p>
+                <h3 class="h5">HisabFlow</h3>
+                <p class="small">A business app for field-service companies and garages, covering customers, jobs, vehicles, payments and team.</p>
+                <div class="d-flex flex-wrap gap-2 mt-auto"><span class="badge rounded-pill text-bg-dark border fw-normal px-3 py-2">Base44</span><span class="badge rounded-pill text-bg-dark border fw-normal px-3 py-2">Web app</span><span class="badge rounded-pill text-bg-dark border fw-normal px-3 py-2">Field service</span></div>
+              </div>
+              <div class="card-footer project-actions">
+                <a class="project-link" href="https://hisaab-flow.base44.app" target="_blank" rel="noopener">Visit website <i class="ti ti-external-link" aria-hidden="true"></i></a>
+                <a class="project-link project-link-alt" href="case-studies/hisabflow.html">Read case study <i class="ti ti-arrow-right" aria-hidden="true"></i></a>
               </div>
             </article>
           </div>
@@ -370,13 +423,26 @@
       </div>
     </section>
 
+    <section id="home-pricing" class="container" aria-labelledby="home-pricing-title" style="padding-top: var(--section-gap)">
+      <div class="section-head" data-aos="fade-up">
+        <p class="section-label">Bundles</p>
+        <h2 id="home-pricing-title" class="section-title">One team for the whole job.</h2>
+        <p class="muted mb-0" style="max-width: 42rem">Web development, SEO, content writing and social media marketing, combined. Each bundle costs less than buying the parts separately.</p>
+      </div>
+      <div id="home-bundles" class="row row-cols-1 row-cols-lg-3 g-4"></div>
+      <p class="price-note mt-4 mb-0" id="currency-note"></p>
+    </section>
+
     <section id="cta-band" class="container" aria-labelledby="cta-title" data-aos="fade-up">
       <div class="cta-inner d-flex flex-wrap align-items-center justify-content-between gap-4">
         <div>
           <h2 id="cta-title" class="display-6 mb-2">Have a project in mind?</h2>
           <p class="muted mb-0">Tell me what you're building and when you need it. I usually reply within a day.</p>
         </div>
-        <a class="btn btn-primary btn-lg" href="contact.html">Start a project <i class="ti ti-arrow-right" aria-hidden="true"></i></a>
+        <div class="d-flex flex-wrap gap-3">
+          <a class="btn btn-primary btn-lg" href="contact.html">Start a project <i class="ti ti-arrow-right" aria-hidden="true"></i></a>
+          <button class="btn btn-outline-light btn-lg" type="button" data-copy="amalik8989@gmail.com"><i class="ti ti-copy" aria-hidden="true"></i> Copy email</button>
+        </div>
       </div>
     </section>
   </main>
@@ -390,6 +456,9 @@
           <li class="nav-item"><a class="nav-link p-0" href="index.html">Home</a></li>
           <li class="nav-item"><a class="nav-link p-0" href="about.html">About</a></li>
           <li class="nav-item"><a class="nav-link p-0" href="case-studies.html">Case studies</a></li>
+          <li class="nav-item"><a class="nav-link p-0" href="pricing.html">Pricing</a></li>
+          <li class="nav-item"><a class="nav-link p-0" href="services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link p-0" href="stack.html">Stack</a></li>
           <li class="nav-item"><a class="nav-link p-0" href="contact.html">Contact</a></li>
         </ul>
       </nav>
@@ -400,6 +469,12 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11.1.14/swiper-bundle.min.js"></script>
+  <script src="assets/js/pricing.js"></script>
+  <script src="assets/js/interactions.js"></script>
   <script src="assets/js/main.js"></script>
+  <a id="wa-widget" class="wa-widget" href="https://wa.me/923342267926?text=Hi%20Atta%2C%20I%20found%20your%20portfolio%20and%20would%20like%20to%20talk%20about%20a%20project." target="_blank" rel="noopener" aria-label="Chat with Atta on WhatsApp: +92 334 2267926">
+    <span class="wa-label">Chat on WhatsApp</span>
+    <span class="wa-btn"><i class="ti ti-brand-whatsapp" aria-hidden="true"></i></span>
+  </a>
 </body>
 </html>

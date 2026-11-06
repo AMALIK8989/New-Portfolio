@@ -1,0 +1,36 @@
+# Atta e rabi Malik
+
+> Atta e rabi Malik is a web developer based in Lahore, Pakistan, working since 2016. He builds WordPress websites, WooCommerce stores, custom front ends in HTML, CSS, Bootstrap, JavaScript and React, and Node.js or Express backends. He also offers SEO, content writing and social media marketing, alone or as bundles. Prices are published in USD and shown in the visitor's own currency (PKR, GBP, EUR, AED, SAR, QAR, KWD, OMR, BHD, EGP).
+
+Contact: amalik8989@gmail.com. WhatsApp +92 334 2267926.
+
+## Services and prices (USD, starting points)
+
+- Landing page: 120 USD, one focused page.
+- Starter website: 170 USD, WordPress, up to 5 pages, copy included, basic SEO setup.
+- Business website: 450 USD, WordPress, up to 10 pages, custom layout, forms and speed optimisation.
+- E-commerce store: 750 USD, WooCommerce, up to 30 products, payment gateway setup. Hosting and domain are not included.
+- Custom front end or app UI: from 600 USD.
+- Node.js API or admin panel: from 800 USD.
+- Data and media integrations (Supabase, Cloudinary): from 200 USD.
+- Speed and SEO audit: 150 USD, written audit with a prioritised fix list.
+- Monthly SEO: 300 USD per month.
+- Content writing: 60 USD per article of about 1,000 words.
+- Social media marketing: 250 USD per month, 12 posts with captions.
+- Maintenance and support: 60 USD per month.
+
+## Bundles (USD)
+
+- Launch: 550 USD one-time. Starter website, SEO foundation, 4 articles, 12 social posts to kick off.
+- Growth: 450 USD setup plus 650 USD per month. Business website, monthly SEO, 4 articles and 12 social posts a month.
+- Scale: 750 USD setup plus 1,100 USD per month. E-commerce store, monthly SEO, 8 articles, 20 social posts and maintenance.
+
+## Pages
+
+- [Home](https://atta-dev.netlify.app/): who I am, services, selected work, bundles.
+- [Pricing](https://atta-dev.netlify.app/pricing.html): every package, bundle and FAQ, with currency selection.
+- [Services](https://atta-dev.netlify.app/services.html): web development, SEO, content writing and social media marketing, with starting prices.
+- [Stack](https://atta-dev.netlify.app/stack.html): the HTML, CSS, JavaScript, React, WordPress, Node.js, Express, PHP, MySQL and Python tools used.
+- [Case studies](https://atta-dev.netlify.app/case-studies.html): Lexivanta (WordPress vocabulary platform), Young Connection (Shopify redesign), Syntrix (consultancy site), NOVA CMS (Node.js content management), E-Vaccination (health platform), Cinelux (streaming brand site), HisabFlow (field-service web app).
+- [About](https://atta-dev.netlify.app/about.html): background and approach.
+- [Contact](https://atta-dev.netlify.app/contact.html): project enquiry form.

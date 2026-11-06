@@ -1,0 +1,6 @@
+# Atta e rabi Malik portfolio
+# AI search and assistant crawlers are welcome: the site is meant to be found and quoted.
+User-agent: *
+Allow: /
+
+Sitemap: https://atta-dev.netlify.app/sitemap.xml

@@ -50,6 +50,28 @@
     });
   }
 
+  /* Cursor spotlight on cards (CSS draws the glow from --mx and --my) */
+  if (!window.matchMedia("(hover: none)").matches) {
+    document.querySelectorAll("#services .card, #work-swiper .project, #stack-grid .stack-item, #cta-band .cta-inner").forEach((el) => {
+      el.addEventListener("pointermove", (e) => {
+        const r = el.getBoundingClientRect();
+        el.style.setProperty("--mx", `${e.clientX - r.left}px`);
+        el.style.setProperty("--my", `${e.clientY - r.top}px`);
+      });
+    });
+  }
+
+  /* Case study screenshots: drop any image whose file is missing, and the whole gallery if none are left */
+  document.querySelectorAll(".case-gallery img").forEach((img) => {
+    const drop = () => {
+      const gallery = img.closest(".case-gallery");
+      img.closest("figure")?.remove();
+      if (gallery && !gallery.querySelector("figure")) gallery.remove();
+    };
+    if (img.complete && img.naturalWidth === 0) drop();
+    else img.addEventListener("error", drop, { once: true });
+  });
+
   /* Contact form: validate with Bootstrap styles, then open a prefilled email */
   const form = document.getElementById("contact-form");
   const status = document.getElementById("form-status");
