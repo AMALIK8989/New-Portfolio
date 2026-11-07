@@ -1,17 +1,88 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://atta-dev.netlify.app/</loc><lastmod>2026-11-06</lastmod><changefreq>monthly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://atta-dev.netlify.app/pricing.html</loc><lastmod>2026-11-06</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://atta-dev.netlify.app/case-studies.html</loc><lastmod>2026-11-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://atta-dev.netlify.app/case-studies/lexivanta.html</loc><lastmod>2026-11-06</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://atta-dev.netlify.app/case-studies/young-connection.html</loc><lastmod>2026-11-06</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://atta-dev.netlify.app/case-studies/syntrix.html</loc><lastmod>2026-11-06</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://atta-dev.netlify.app/case-studies/nova-cms.html</loc><lastmod>2026-11-06</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://atta-dev.netlify.app/case-studies/evms.html</loc><lastmod>2026-11-06</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://atta-dev.netlify.app/case-studies/cinelux.html</loc><lastmod>2026-11-06</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://atta-dev.netlify.app/case-studies/hisabflow.html</loc><lastmod>2026-11-06</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://atta-dev.netlify.app/about.html</loc><lastmod>2026-11-06</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://atta-dev.netlify.app/contact.html</loc><lastmod>2026-11-06</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://atta-dev.netlify.app/services.html</loc><lastmod>2026-11-06</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://atta-dev.netlify.app/stack.html</loc><lastmod>2026-11-06</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+﻿<?xml version="1.0" encoding="UTF-8"?>
+		<!--	created with www.mysitemapgenerator.com	-->
+		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+	<loc>https://atta-dev.netlify.app/</loc>
+	<lastmod>2026-11-07T02:21:28+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://atta-dev.netlify.app/about</loc>
+	<lastmod>2026-11-07T02:21:28+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://atta-dev.netlify.app/case-studies</loc>
+	<lastmod>2026-11-07T02:21:28+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://atta-dev.netlify.app/pricing</loc>
+	<lastmod>2026-11-07T02:21:28+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://atta-dev.netlify.app/services</loc>
+	<lastmod>2026-11-07T02:21:28+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://atta-dev.netlify.app/stack</loc>
+	<lastmod>2026-11-07T02:21:28+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://atta-dev.netlify.app/contact</loc>
+	<lastmod>2026-11-07T02:21:28+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://atta-dev.netlify.app/case-studies/lexivanta</loc>
+	<lastmod>2026-11-07T02:21:28+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://atta-dev.netlify.app/case-studies/young-connection</loc>
+	<lastmod>2026-11-07T02:21:28+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://atta-dev.netlify.app/case-studies/syntrix</loc>
+	<lastmod>2026-11-07T02:21:28+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://atta-dev.netlify.app/case-studies/nova-cms</loc>
+	<lastmod>2026-11-07T02:21:28+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://atta-dev.netlify.app/case-studies/evms</loc>
+	<lastmod>2026-11-07T02:21:28+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://atta-dev.netlify.app/case-studies/cinelux</loc>
+	<lastmod>2026-11-07T02:21:28+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://atta-dev.netlify.app/case-studies/hisabflow</loc>
+	<lastmod>2026-11-07T02:21:28+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>0.8</priority>
+</url>
 </urlset>
