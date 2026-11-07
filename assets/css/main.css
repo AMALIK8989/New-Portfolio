@@ -279,7 +279,7 @@ h1, h2, h3, h4, p, li, dd, dt, figcaption { overflow-wrap: anywhere; }
 #work-head .section-title { margin-bottom: 0; }
 #work-controls { display: flex; gap: .75rem; }
 
-#work-swiper { padding: 0 var(--pad) 3.5rem; max-width: 1400px; margin: 0 auto; overflow: visible; }
+#work-swiper { padding: 0 0 3.5rem; max-width: 1400px; margin: 0 auto; overflow: visible; }
 #work-swiper .swiper-slide { height: auto; display: flex; }
 #work-swiper .project {
   flex-direction: column;
@@ -840,3 +840,27 @@ body::before {
 .stack-grid .stack-item span { font-size: .9rem; color: var(--bs-secondary-color); }
 @media (min-width: 768px) { .stack-grid { grid-template-columns: repeat(4, 1fr); } }
 @media (min-width: 1200px) { .stack-grid { grid-template-columns: repeat(5, 1fr); } }
+
+/* ---------- Mobile card fixes ---------- */
+@media (max-width: 639.98px) {
+  #work-swiper .project-meta { padding: 1.25rem 1.25rem 1rem; }
+  #work-swiper .project-actions { padding: 0 1.25rem 1.25rem; }
+  #work-swiper .project h3 { font-size: 1.25rem; }
+  #services .service-card .card-body { padding: 1.5rem 1.25rem; }
+  #services .service-icon { font-size: 1.75rem; }
+  .price-card { padding: 1.5rem 1.25rem; }
+  .price-list-row { flex-direction: column; align-items: flex-start; gap: .6rem; }
+  .price-list-row .text-end { text-align: left !important; }
+}
+
+/* Hover lifts only on devices that really hover, so a tap does not leave a card stuck up */
+@media (hover: none) {
+  #services .service-card:hover,
+  #work-swiper .project:hover,
+  .tilt:hover {
+    transform: none !important;
+    box-shadow: none;
+  }
+  #work-swiper .project:hover { border-color: var(--bs-border-color); }
+  #services .service-card:hover { border-color: var(--bs-border-color); }
+}

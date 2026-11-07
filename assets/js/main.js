@@ -36,16 +36,18 @@
   if (window.Swiper && document.getElementById("work-swiper")) {
     new Swiper("#work-swiper", {
       slidesPerView: 1.1,
-      spaceBetween: 20,
+      spaceBetween: 16,
+      slidesOffsetBefore: 24,
+      slidesOffsetAfter: 24,
       grabCursor: true,
       speed: reduceMotion ? 0 : 650,
       a11y: { enabled: true },
       pagination: { el: "#work-swiper .swiper-pagination", clickable: true },
       navigation: { nextEl: "#work-next", prevEl: "#work-prev" },
       breakpoints: {
-        640: { slidesPerView: 1.6, spaceBetween: 20 },
-        992: { slidesPerView: 2.2, spaceBetween: 24 },
-        1280: { slidesPerView: 3, spaceBetween: 24 },
+        640: { slidesPerView: 1.6, spaceBetween: 20, slidesOffsetBefore: 32, slidesOffsetAfter: 32 },
+        992: { slidesPerView: 2.2, spaceBetween: 24, slidesOffsetBefore: 40, slidesOffsetAfter: 40 },
+        1280: { slidesPerView: 3, spaceBetween: 24, slidesOffsetBefore: 48, slidesOffsetAfter: 48 },
       },
     });
   }
