@@ -1,6 +1,6 @@
 /* Atta e rabi Malik | Pricing and currency
-   One price list in USD. Every price on the site is converted to the visitor's
-   currency. Edit RATES (1 USD = x local) and the PRICING list, then publish.
+   Prices are set in Pakistani rupees (PKR). Every price on the site is converted
+   to the visitor's currency. Edit RATES (1 USD = x local) and the PRICING list, then publish.
    Rates are approximate estimates: check current rates before you publish. */
 (() => {
   "use strict";
@@ -21,6 +21,9 @@
     EGP: { label: "Egyptian Pound", country: "Egypt", rate: 50 },
   };
 
+  /* PKR is the base. Prices in PRICING are written in PKR and converted to USD here. */
+  const pkrToUsd = (pkr) => pkr / CURRENCIES.PKR.rate;
+
   const COUNTRY_CURRENCY = {
     US: "USD", PK: "PKR", GB: "GBP", AE: "AED", SA: "SAR",
     QA: "QAR", KW: "KWD", OM: "OMR", BH: "BHD", EG: "EGP",
@@ -34,39 +37,39 @@
     "Europe/Dublin": "IE", "Europe/Lisbon": "PT", "Europe/Athens": "GR", "Europe/Helsinki": "FI",
   };
 
-  /* ---- The price list (USD). Edit here; the site renders from this. ---- */
+  /* ---- The price list (PKR). Edit here; the site renders from this. ---- */
   const PRICING = {
     websites: [
-      { name: "Landing page", price: 120, desc: "One focused page built for one action: a call, a quote or a sign-up.",
+      { name: "Landing page", price: pkrToUsd(25000), desc: "One focused page built for one action: a call, a quote or a sign-up.",
         items: ["Mobile-first layout", "Contact or booking form", "Basic on-page SEO"] },
-      { name: "Starter website", price: 170, desc: "A simple, fast WordPress site to get your business online.",
+      { name: "Starter website", price: pkrToUsd(30000), desc: "A simple, fast WordPress site to get your business online.",
         items: ["Up to 5 pages", "Copy included", "Basic SEO setup"], featured: true },
-      { name: "Business website", price: 450, desc: "A custom layout for a business that needs more pages and forms.",
+      { name: "Business website", price: pkrToUsd(40000), desc: "A custom layout for a business that needs more pages and forms.",
         items: ["Up to 10 pages", "Custom layout and forms", "Speed optimisation"] },
-      { name: "E-commerce store", price: 750, desc: "A WooCommerce store with products, checkout and payments set up.",
+      { name: "E-commerce store", price: pkrToUsd(45000), desc: "A WooCommerce store with products, checkout and payments set up.",
         items: ["Up to 30 products", "Payment gateway setup", "Product SEO basics"] },
     ],
     custom: [
-      { name: "Custom front end or app UI", price: 600, from: true, desc: "Responsive interfaces in HTML, CSS, JavaScript or React." },
-      { name: "Node.js API or admin panel", price: 800, from: true, desc: "REST APIs, dashboards and backend pipelines with Express." },
-      { name: "Data and media integrations", price: 200, from: true, desc: "Supabase for data and auth, Cloudinary for images, wired into your site." },
-      { name: "Speed and SEO audit", price: 150, desc: "A written audit of what is slowing your site or keeping it off search, with a prioritised fix list." },
+      { name: "Custom front end or app UI", price: pkrToUsd(35000), from: true, desc: "Responsive interfaces in HTML, CSS, JavaScript or React." },
+      { name: "Node.js API or admin panel", price: pkrToUsd(45000), from: true, desc: "REST APIs, dashboards and backend pipelines with Express." },
+      { name: "Data and media integrations", price: pkrToUsd(15000), from: true, desc: "Supabase for data and auth, Cloudinary for images, wired into your site." },
+      { name: "Speed and SEO audit", price: pkrToUsd(15000), desc: "A written audit of what is slowing your site or keeping it off search, with a prioritised fix list." },
     ],
     ongoing: [
-      { name: "Monthly SEO", price: 300, unit: "/month", desc: "Keyword research, on-page updates, technical checks and a monthly report." },
-      { name: "Content writing", price: 60, unit: " per article", desc: "SEO-led articles of about 1,000 words, written for your keywords and audience." },
-      { name: "Social media marketing", price: 250, unit: "/month", desc: "12 posts a month with captions, designed to match your site." },
-      { name: "Maintenance and support", price: 60, unit: "/month", desc: "Updates, backups, fixes and small changes after launch." },
+      { name: "Monthly SEO", price: pkrToUsd(20000), unit: "/month", desc: "Keyword research, on-page updates, technical checks and a monthly report." },
+      { name: "Content writing", price: pkrToUsd(3000), unit: " per article", desc: "SEO-led articles of about 1,000 words, written for your keywords and audience." },
+      { name: "Social media marketing", price: pkrToUsd(15000), unit: "/month", desc: "12 posts a month with captions, designed to match your site." },
+      { name: "Maintenance and support", price: pkrToUsd(5000), unit: "/month", desc: "Updates, backups, fixes and small changes after launch." },
     ],
     bundles: [
       { id: "launch", name: "Launch", tagline: "Get online and start getting found.",
-        setup: 550, monthly: null, saveUsd: 130, saveText: "One-time bundle. You save",
+        setup: pkrToUsd(45000), monthly: null, saveUsd: pkrToUsd(27000), saveText: "One-time bundle. You save",
         items: ["Starter website, up to 5 pages", "SEO foundation and speed check", "4 blog articles for your keywords", "12 social posts to kick off"] },
       { id: "growth", name: "Growth", tagline: "A business website with SEO, content and social working together.",
-        setup: 450, monthly: 650, saveUsd: 140, saveText: "Saves every month. You save",
+        setup: pkrToUsd(40000), monthly: pkrToUsd(35000), saveUsd: pkrToUsd(12000), saveText: "Saves every month. You save",
         items: ["Business website, up to 10 pages", "Monthly SEO", "4 articles a month", "12 social posts a month"], featured: true },
       { id: "scale", name: "Scale", tagline: "A full online store with ongoing growth across all four services.",
-        setup: 750, monthly: 1100, saveUsd: 140, saveText: "Saves every month. You save",
+        setup: pkrToUsd(45000), monthly: pkrToUsd(60000), saveUsd: pkrToUsd(14000), saveText: "Saves every month. You save",
         items: ["E-commerce store, up to 30 products", "Monthly SEO", "8 articles a month", "20 social posts a month", "Maintenance and support"] },
     ],
   };
@@ -179,7 +182,7 @@
     const note = document.getElementById("currency-note");
     if (note) {
       const c = CURRENCIES[code];
-      note.textContent = `Showing prices in ${c.label} (${code}). These are estimates converted from USD. The invoice currency is agreed in writing before work starts.`;
+      note.textContent = `Showing prices in ${c.label} (${code}). These are estimates converted from Pakistani rupee prices. The invoice currency is agreed in writing before work starts.`;
     }
     document.querySelectorAll(".buy-btn").forEach((btn) => {
       const d = btn.dataset;
